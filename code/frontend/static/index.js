@@ -12,8 +12,10 @@ let speech_to_Text;
 let Text_to_speech;
 let french_text;
 
-let backend_ip="104.155.141.115";
-// let backend_ip="127.0.0.1";
+// let backend_ip="34.171.17.126";
+//let backend_port="5000";
+
+let backend_ip="127.0.0.1";
 let backend_port="5000";
 
 /*

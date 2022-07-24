@@ -21,7 +21,7 @@ class Load:
     def __init__(self):
         self.text_client = texttospeech.TextToSpeechClient()
         self.speech_client = speech.SpeechClient()
-        self.model = tf.keras.models.load_model("model/trained_model")
+        self.model = tf.keras.models.load_model("model")
         self.pred_object = Prediction()
 
     def text_to_speech_conversion(self):
