@@ -17,8 +17,14 @@ This application converts English speech to French speech. Users can record thei
 
 ## Install conda
 
-In your browser, download the Anaconda installer for Linux.
-install for Python 3.7 :-bash ~/Downloads/Anaconda3-2020.05-Linux-x86_64.sh
+### download the Miniconda installer for Linux:- 
+
+https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Windows-x86_64.exe
+
+### run downloaded file
+
+bash Miniconda3-latest-Linux-x86_64.sh
+
 Press Enter to review the license agreement. Then press and hold Enter to scroll
 Enter “yes” to agree to the license agreement.
 
