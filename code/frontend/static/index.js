@@ -12,11 +12,11 @@ let speech_to_Text;
 let Text_to_speech;
 let french_text;
 
-// let backend_ip="34.171.17.126";
-//let backend_port="5000";
-
-let backend_ip="127.0.0.1";
+let backend_ip="34.67.52.75";
 let backend_port="5000";
+
+// let backend_ip="127.0.0.1";
+// let backend_port="5000";
 
 /*
 * this class initialize all the varibles
@@ -280,10 +280,10 @@ function TextTospeech() {
         var myBuffer = base64DecToArr(this.response).buffer;
         obj.text_blob = new Blob([myBuffer], { type: 'audio/wav' });
         var url = window.URL.createObjectURL(obj.text_blob);
-        var audio = new Audio(url);
-        speech_audio = audio;
+
+        let speech_audio=document.getElementById("playFrench");
+        speech_audio.src=url;
         document.getElementsByClassName("loader")[0].style.display = "none";
-        audio.play();
     };
     xmlHttp.open("POST", "http://" + backend_ip + ":" + backend_port + "/text-speech", true);
     xmlHttp.send(obj.french_output);

@@ -87,6 +87,18 @@ body{
     cursor: pointer;
     /* text-align: center; */
 }
+
+#playFrench{
+    margin-bottom: 30px;
+    /* margin-left: 150px; */
+    width: 60%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
 #send{
     margin-bottom: 30px;
     width: 60%;
