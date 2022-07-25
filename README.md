@@ -26,6 +26,5 @@ pip install -r requirements.txt
      
 Step 3 get data set using following link
 
-Step 4 train model
 
  
