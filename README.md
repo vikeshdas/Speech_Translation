@@ -1,4 +1,4 @@
-Speech to Speech Translator
+# Speech to Speech Translator
 
 This application converts English speech to French speech. Users can record their voice in English and can convert it to text. The model(trained using a neural network to translate English text to French text, will discuss model training later) on the back-end only accepts text. To translate English speech to French speech we need to convert speech to text(I used google speech API in the backend to convert speech to text) and then converted text will be fed to the trained model to translate english to french. Once we have converted english speech to english text we can feed english text to the trained model and the model will return french text.Translated french text will be sent on the front end. We will get text(French) on the front-end after translation, but as we discussed This application translates English speech to French speech so we will convert translated text(French) to speech. I have used google speech API on the backend to convert text to speech. French Speech converted from the French-text can be played on the front end.
 
@@ -14,6 +14,13 @@ This application converts English speech to French speech. Users can record thei
 <img src="images/5.jpg" width="100%" align="top-left" alt="" title="RNN" />
 
 
+
+## Install conda
+
+In your browser, download the Anaconda installer for Linux.
+install for Python 3.7 :-bash ~/Downloads/Anaconda3-2020.05-Linux-x86_64.sh
+Press Enter to review the license agreement. Then press and hold Enter to scroll
+Enter “yes” to agree to the license agreement.
 
 
 Step 1 Create conda environment 
