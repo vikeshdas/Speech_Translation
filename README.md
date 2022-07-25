@@ -23,15 +23,15 @@ Press Enter to review the license agreement. Then press and hold Enter to scroll
 Enter “yes” to agree to the license agreement.
 
 
-Step 1 Create conda environment 
+## Create conda environment 
  
 conda create -n myenv python=3.9
 
-Step 2 install requirements.txt file
+## install requirements.txt file
 
 pip install -r requirements.txt
      
-Step 3 get data set using following link
+## get data set using following link
 
 
  
