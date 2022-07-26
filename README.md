@@ -20,15 +20,15 @@ This application converts English speech to French speech. Users can record thei
 
 
 ### Install conda
-#### step1
-#### download the Miniconda installer for Linux:- 
-https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Windows-x86_64.exe
+  #### step1
+  #### download the Miniconda installer for Linux:- 
+  https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Windows-x86_64.exe
 
-#### step2
-#### run downloaded file
-bash Miniconda3-latest-Linux-x86_64.sh
-Press Enter to review the license agreement. Then press and hold Enter to scroll
-Enter “yes” to agree to the license agreement.
+  #### step2
+  #### run downloaded file
+  bash Miniconda3-latest-Linux-x86_64.sh
+  Press Enter to review the license agreement. Then press and hold Enter to scroll
+  Enter “yes” to agree to the license agreement.
 
 
 ### Create conda environment 
