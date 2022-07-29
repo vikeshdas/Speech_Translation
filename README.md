@@ -39,7 +39,7 @@ conda create -n myenv python=3.9
 ### install requirements.txt file
 pip install -r requirements.txt
      
-##3 get data set using following link
+## 3 get data set using following link
 
 
 ## Install google cloud sdk
