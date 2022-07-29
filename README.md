@@ -2,7 +2,7 @@
 
 This application converts English speech to French speech. Users can record their voice in English and can convert it to text. The model(trained using a neural network to translate English text to French text, will discuss model training later) on the back-end only accepts text. To translate English speech to French speech we need to convert speech to text(I used google speech API in the backend to convert speech to text) and then converted text will be fed to the trained model to translate english to french. Once we have converted english speech to english text we can feed english text to the trained model and the model will return french text.Translated french text will be sent on the front end. We will get text(French) on the front-end after translation, but as we discussed This application translates English speech to French speech so we will convert translated text(French) to speech. I have used google speech API on the backend to convert text to speech. French Speech converted from the French-text can be played on the front end.
 
-#### This is front-end where user can record their void ,and translate english to french
+#### This is front-end where user can record their voice ,and translate english to french
 <img src="images/1.jpg" width="100%" align="top-left" alt="" title="RNN" />
 
 #### when user will click on record button ,it will start voice recording as you can see in image
