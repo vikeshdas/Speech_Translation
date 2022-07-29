@@ -27,7 +27,9 @@ This application converts English speech to French speech. Users can record thei
   #### step2
   #### run downloaded file
   bash Miniconda3-latest-Linux-x86_64.sh
+  
   Press Enter to review the license agreement. Then press and hold Enter to scroll
+  
   Enter “yes” to agree to the license agreement.
 
 
